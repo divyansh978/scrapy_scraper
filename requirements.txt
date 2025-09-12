@@ -1,5 +1,8 @@
+
 pandas==2.3.2
 PyMySQL==1.1.2
+pyOpenSSL==25.1.0
 python-dotenv==1.1.1
 Scrapy==2.13.3
 SQLAlchemy==2.0.43
+beautifulsoup4=4.13.5
