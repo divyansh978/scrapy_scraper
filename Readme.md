@@ -1,5 +1,5 @@
 # bbb scraper
-This is a scraper of bbb.org website which use its sitemap data to scrape businesses details. This project exist just as a code sample. 
+This is a scraper of bbb.org website where I have used its sitemap data to scrape businesses details. This project exist just as a code sample. 
 
 ## Installation
 Instructions to get your project up and running:
