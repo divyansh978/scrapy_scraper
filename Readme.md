@@ -27,7 +27,7 @@ virtualenv\scripts\activate
 ```bash
 python3 -m pip install -r requirements.txt
 ```
-5. Then import the mysql db schema in your machine's mysql server and create the .env file as described in the .env.example and replace the values with your correct values.
+5. Then import the mysql db schema in your machine's mysql server and create the .env file as described in the .env.example and replace the values with your correct values. The database schema is placed in the file test.sql
 
 6. Then just start downloading the bbb.org website's sitemaps manually from this url https://www.bbb.org/sitemap-business-profiles-index.xml After downloading the first sitemap just place it in the bbb_scrapy_scraper and run the xml_to_db.py script. This script will convert the data from this sitemap file and push the rows in the database table. After inserting the first sitemap file now you are ready to run the scraper.
 
