@@ -10,7 +10,7 @@ password = os.getenv('db_password')
 dbname = os.getenv('db_name')
 
 def sqlengine():
-    engine = create_engine(f'mysql+pymysql://%s:%s@{host}:3306/{%s}' % (user,password,dbname))
+    engine = create_engine(f'mysql+pymysql://%s:%s@{host}:3306/%s' % (user,password,dbname))
     return engine
 
 def fetchone(id):
